@@ -6,7 +6,7 @@ article: false
 
 User <span class="unit.username">Loading</span>.
 
-## Contract
+## Contact
 
 You can contact <span class="unit.username">Loading</span> through the following EnxMail email address:
 
