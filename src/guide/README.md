@@ -12,7 +12,7 @@ icon: info
 
 ## Premium Service
 
-If you do not purchase and active premium service, the maximum length of ciphertext will be limited to 768 bytes (about 600 bytes of plaintext).
+If you do not purchase and active premium service, the maximum length of ciphertext will be limited to 768 bytes (about 600 bytes of plaintext, but we limit it to 512 bytes).
 
 If you want to purchase premium service, join the QQ group 576738755 and contact our team.
 
