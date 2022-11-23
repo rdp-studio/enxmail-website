@@ -26,7 +26,3 @@ You can contact <span class="unit.username">Loading</span> through the following
 This content is for display only. In fact, it is unnecessary to provide this content during the use of EnxMail (EnxMail will automatically obtain it).
 
 <div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code class="unit.public_key">Loading</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>
-
-<script>
-    setTimeout("if (!window.enxMailServiceInit) {window.location.reload()}", 1000);
-</script>

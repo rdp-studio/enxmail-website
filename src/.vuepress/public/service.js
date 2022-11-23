@@ -8,10 +8,6 @@ function obj(root, parts) {
     return obj(root[root_name], parts)
 }
 
-$(function() {
-    window.enxMailServiceInit = true;
-});
-
 $(function () {
     if (window.location.pathname !== "/profile/") {
         return;

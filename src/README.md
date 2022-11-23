@@ -25,7 +25,3 @@ features:
 <div class="feature"><span class="icon iconfont icon-comment"></span><h2 class="sys.mails">Loading</h2><p>Total Messages Processed</p></div>
 <div class="feature"><span class="icon iconfont icon-any"></span><h2 class="sys.users">Loading</h2><p>KeyServer Registered Users</p></div>
 </div>
-
-<script>
-    setTimeout("if (!window.enxMailServiceInit) {window.location.reload()}", 1000);
-</script>
