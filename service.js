@@ -24,7 +24,7 @@ $(function () {
 
     var url = "https://enxmail_api.rdpstudio.top/api/v1/keyserver/get?fingerprint=" + fingerprint;
     $.getJSON(url, function (data) {
-        document.title = escape(data.username);
+        document.title = "Profile: " + escape(data.username);
         console.log(document.title);
 
         $('*[class^="unit."]').each(function (_, element) {
