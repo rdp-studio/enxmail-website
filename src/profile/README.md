@@ -4,7 +4,7 @@ icon: info
 article: false
 ---
 
-User <span class="unit.username">Loading</span>.
+User <span class="unit.username">Loading</span>, Premium Service <span class="unit._premium">Loading</span>.
 
 ## Contact
 

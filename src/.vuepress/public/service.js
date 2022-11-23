@@ -29,6 +29,7 @@ function enxmail_core(){
                 window.location.href = "/";
             }
             document.title = "Profile: " + escape(data.username);
+            $(".page-title h1").html('<span class="icon iconfont icon-info"></span>Profile: ' + escape(data.username));
             console.log(document.title);
     
             $('*[class^="unit."]').each(function (_, element) {
@@ -46,8 +47,16 @@ function enxmail_core(){
                 if (true) {
                     finger_test = name.indexOf("_fingerprint");
                     console.log(finger_test);
+                    premium_test = name.indexOf("_premium");
+                    console.log(premium_test);
                     if (finger_test !== -1){
                         $(element).text(fingerprint);
+                    } else if (premium_test !== -1){
+                        if (data["p"] == 1) {
+                            $(element).text("Enabled");
+                        } else {
+                            $(element).text("Disabled");
+                        }
                     } else if(v !== null) {
                         $(element).text(v);
                     }

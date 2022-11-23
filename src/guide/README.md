@@ -10,6 +10,12 @@ icon: info
 3. After decompression, enter the enxmail folder, enter "cmd" in the title bar of Windows File Explorer, and then enter "enxmail -h" to start your use.
 4. If you have any other questions, you can join QQ group 576738755 to ask our team and other users.
 
+## Premium Service
+
+If you do not purchase and active premium service, the maximum length of ciphertext will be limited to 88064 bytes (about 512 bytes of plaintext).
+
+If you want to purchase premium service, join the QQ group 576738755 and contact our team.
+
 ## Command line parameter document
 
 ```
