@@ -8,7 +8,7 @@ function obj(root, parts) {
     return obj(root[root_name], parts)
 }
 
-setTimeout(function(){
+function enxmail_core(){
     $(function () {
         if (window.location.pathname !== "/profile/") {
             return;
@@ -79,4 +79,14 @@ setTimeout(function(){
             });
         });
     });
-}, 1000);
+}
+
+function enxmail_core_starter(){
+    try {
+        enxmail_core();
+    } catch (error) {
+        setTimeout(enxmail_core_starter, 500);
+    }
+}
+
+setTimeout(enxmail_core_starter, 500);
