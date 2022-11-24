@@ -17,7 +17,7 @@ export default defineUserConfig({
     iconAssets: "iconfont",
     displayFooter: true,
     footer: "Copyright (C) 2022 FANGTANG Network Technology.",
-    navbar: ["/guide/README.md"],
+    navbar: ["/guide/README.md", "/recovery/README.md"],
     pure: true
   }),
 });
