@@ -7,7 +7,7 @@ export default defineUserConfig({
       'script', {type: 'text/javascript', src: '/js/jquery.js?v1.0.0', async: true}
     ],
     [
-        'script', {type: 'text/javascript', src: '/service.js?v1.0.5', defer: true}
+        'script', {type: 'text/javascript', src: '/service.js?v1.0.6', defer: true}
     ]
 ],
   theme: hopeTheme({

@@ -65,9 +65,9 @@ function enxmail_core(){
             console.log(data["cert"]);
             $("#certi").html("");
             for(var i in data["cert"]){
-                var data = '<span class="badge ' + data["cert"][i]["type"] + '" style="vertical-align: top;">' + data["cert"][i]["data"] + '</span>';
-                console.log(data);
-                $("#certi").html($("#certi").html() + data);
+                var xdata = '<span class="badge ' + data["cert"][i]["type"] + '" style="vertical-align: top;">' + data["cert"][i]["data"] + '</span>';
+                console.log(xdata);
+                $("#certi").html($("#certi").html() + xdata);
             }
         });
     });
