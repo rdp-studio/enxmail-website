@@ -7,14 +7,18 @@ icon: info
 
 1. First download the EnxMail client. NOTE: It is still under test. You can join QQ group 576738755 to obtain this client.
 2. Unzip it.
-3. After decompression, enter the enxmail folder, enter "cmd" in the title bar of Windows File Explorer, and then enter "enxmail -h" to start your use.
+3. After decompression, enter the enxmail folder, enter `cmd` in the title bar of Windows File Explorer, and then enter `enxmail -h` to start your use.
 4. If you have any other questions, you can join QQ group 576738755 to ask our team and other users.
 
-## Premium Service
+## Profile page guide
 
-If you do not purchase and active premium service, the maximum length of ciphertext will be limited to 768 bytes (about 600 bytes of plaintext, but we limit it to 512 bytes).
+1. Check your fingerprints. Usually in the enxmail folder, the name is fingerprint.txt
+2. Add your fingerprint after the address `https://enxmail.rdpstudio.top/profile/?!`.
+3. This is your profile page.
 
-If you want to purchase premium service, join the QQ group 576738755 and contact our team.
+## Profile introduction guide
+
+Simply send an email to the EnxMail address `Enx1xsetui` (the content is the introduction you want to set) to complete the setting and display it on your profile page.
 
 ## Command line parameter document
 
@@ -35,8 +39,8 @@ Options:
   --version     Show version.
 ```
 
-## Profile page guide
+## Premium Service
 
-1. Check your fingerprints. Usually in the enxmail folder, the name is fingerprint.txt
-2. Add your fingerprint after the address `https://enxmail.rdpstudio.top/profile/?!`.
-3. This is your profile page.
+If you do not purchase and active premium service, the maximum length of ciphertext will be limited to 768 bytes (about 600 bytes of plaintext, but we limit it to 512 bytes).
+
+If you want to purchase premium service, join the QQ group 576738755 and contact our team.

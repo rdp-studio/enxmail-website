@@ -6,11 +6,27 @@ article: false
 
 User <span class="unit.username">Loading</span>, Premium Service <span class="unit._premium">Loading</span>.
 
-## Contact
+## Profile introduction
 
-You can contact <span class="unit.username">Loading</span> through the following EnxMail email address:
+::: warning
 
-<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code class="unit._fingerprint">Loading</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>
+This content is set by the user and does not represent the opinions of the platform.
+
+Learn more about profile introduction at [here](/guide/#profile-introduction-guide).
+
+:::
+
+<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code class="unit.ui">Loading</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>
+
+## Certification
+
+::: info
+
+The certification service is officially provided by the platform and is only used to confirm the identity of the user, which does not mean that the user is trusted.
+
+:::
+
+<div id="certi"></div>
 
 ## User Stats
 
@@ -20,6 +36,12 @@ You can contact <span class="unit.username">Loading</span> through the following
 <div class="feature"><span class="icon iconfont icon-any"></span><h2 class="unit.receive">Loading</h2><p>Total Messages Receive</p></div>
 </div>
 </div>
+
+## Contact
+
+You can contact <span class="unit.username">Loading</span> through the following EnxMail email address:
+
+<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code class="unit._fingerprint">Loading</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>
 
 ## Public Key
 
