@@ -71,6 +71,38 @@ function enxmail_core(){
             }
         });
     });
+
+    $(function () {
+        if (window.location.pathname !== "/board/") {
+            return;
+        }
+    
+        var url = "https://enxmail_api.rdpstudio.top/api/v1/clientserver/theboard";
+        $.getJSON(url, function (data) {
+            if (data["code"] == 1){
+                window.location.href = "/";
+            }
+    
+            $('*[class^="unit."]').each(function (_, element) {
+                var name = $(element).attr('class').split(' ')[0];
+                var parts = name.split('.');
+                console.log(name);
+                console.log(parts);
+    
+                // remove unit.
+                parts.shift();
+                // console.log(parts);
+                var v = obj(data, parts);
+                // console.log("v = " + v);
+    
+                if (true) {
+                    if(v !== null) {
+                        $(element).html(v);
+                    }
+                }
+            });
+        });
+    });
     
     $(function () {
         if (window.location.pathname !== "/") {

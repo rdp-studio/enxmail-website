@@ -1,9 +1,11 @@
 ---
 title: EnxRecovery
-icon: info
+icon: command
 ---
 
 EnxRecovery is a private key backup service officially launched by EnxMail.
+
+The `enxrec` client can be downlaoded from our QQ group 576738755.
 
 ## Security
 

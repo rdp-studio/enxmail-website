@@ -7,7 +7,7 @@ export default defineUserConfig({
       'script', {type: 'text/javascript', src: '/js/jquery.js?v1.0.0', async: true}
     ],
     [
-        'script', {type: 'text/javascript', src: '/service.js?v1.0.6', defer: true}
+        'script', {type: 'text/javascript', src: '/service.js?v1.0.7', defer: true}
     ]
 ],
   theme: hopeTheme({
@@ -17,7 +17,7 @@ export default defineUserConfig({
     iconAssets: "iconfont",
     displayFooter: true,
     footer: "Copyright (C) 2022 FANGTANG Network Technology.",
-    navbar: ["/guide/README.md", "/recovery/README.md"],
+    navbar: ["/README.md", "/guide/README.md", "/recovery/README.md", "/board/README.md"],
     pure: true
   }),
 });

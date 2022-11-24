@@ -15,8 +15,11 @@ features:
     icon: lock
     details: Built in end-to-end encryption and complete security.
   - title: Command line interface
-    icon: command
+    icon: shell
     details: Easy to use command line interface.
+  - title: Burn after reading
+    icon: light
+    details: All emails will be burned immediately after reading.
 ---
 
 ## System Stats
