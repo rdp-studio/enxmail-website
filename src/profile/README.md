@@ -30,7 +30,7 @@ The certification service is officially provided by the platform and is only use
 
 ## User Stats
 
-<div class="home project" style="min-height: 200px;">
+<div class="home project pure" style="min-height: 200px;">
 <div class="features" style="transition: transform 0.25s ease-in-out 0.16s, opacity 0.25s ease-in-out 0.16s; transform: translateY(0px); opacity: 1; border-top: none;">
 <div class="feature"><span class="icon iconfont icon-comment"></span><h2 class="unit.sent">Loading</h2><p>Total Messages Sent</p></div>
 <div class="feature"><span class="icon iconfont icon-any"></span><h2 class="unit.receive">Loading</h2><p>Total Messages Receive</p></div>
